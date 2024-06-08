@@ -1,0 +1,211 @@
+@import "bootstrap/scss/bootstrap";
+
+:root {
+    --height-dragArea: 500px;
+    --ds-shadow-raised: 0px 1px 1px #091E4240,
+        0px 0px 1px #091E424F;
+    --height-text-editor: 10rem
+}
+
+* {
+    font-size: 15px;
+
+}
+
+/*---Login.vue---*/
+.login {
+    background-image: url("../../images/image_login.png");
+    background-size: 100%;
+}
+
+.bg-blue {
+    background-color: #4591a2;
+}
+
+.bg-green {
+    background-color: #67AB79;
+}
+
+.bg-pink {
+    background-color: #CC8399;
+}
+
+.bg-dark-purple {
+    background-color: #934699;
+}
+
+.bg-light-purple {
+    background-color: #DA90EC;
+}
+
+.bg-yellow {
+    background-color: #C99D5C;
+}
+
+.bg-body {
+    background-color: #f7f7f7 !important;
+}
+
+/**header**/
+.header {
+    height: 10vh;
+    background-color: white;
+}
+
+
+/*----side bar-----*/
+.router-link-active {
+    background-color: #316CF4;
+    color: white !important;
+}
+
+/*----dropdown------*/
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 2px 2px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1999;
+    left: -149px;
+    top: 100%;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd9d8;
+}
+
+.bg-custom {
+    background-color: red;
+}
+
+
+
+.quanlitaikhoan {
+    position: absolute;
+    bottom: 0;
+}
+
+.content-body {
+    min-height: calc(100vh - 15.5vh);
+}
+
+/***footer**/
+.footer {
+    height: 6.5vh;
+    background-color: #f7f7f7 !important;
+    padding-left: -10px;
+}
+
+.position-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.Powered {
+    padding-right: 2%;
+}
+
+//form style
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+    height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #cdd3d6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+.text-ellipsis {
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-1 {
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.height-text-editor {
+    min-height: var(--height-text-editor);
+    max-height: var(--height-text-editor);
+}
+
+#textarea {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.left-97 {
+    left: 97% !important;
+}
+
+.top-7-px {
+    top: 7px !important;
+}
