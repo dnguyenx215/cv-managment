@@ -12842,11 +12842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Workspace\\cvmanager\\cv-management\\CVManagement\\CVManagementAPI\\CVManagementAPI.csproj",
+      "projectUniqueName": "E:\\Workspace\\cvmanager - Copy\\CVManagement\\CVManagementAPI\\CVManagementAPI.csproj",
       "projectName": "CVManagementAPI",
-      "projectPath": "E:\\Workspace\\cvmanager\\cv-management\\CVManagement\\CVManagementAPI\\CVManagementAPI.csproj",
+      "projectPath": "E:\\Workspace\\cvmanager - Copy\\CVManagement\\CVManagementAPI\\CVManagementAPI.csproj",
       "packagesPath": "C:\\Users\\duydu\\.nuget\\packages\\",
-      "outputPath": "E:\\Workspace\\cvmanager\\cv-management\\CVManagement\\CVManagementAPI\\obj\\",
+      "outputPath": "E:\\Workspace\\cvmanager - Copy\\CVManagement\\CVManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\duydu\\AppData\\Roaming\\NuGet\\NuGet.Config",

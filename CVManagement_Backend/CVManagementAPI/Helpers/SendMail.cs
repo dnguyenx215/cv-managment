@@ -13,7 +13,7 @@ namespace CVManagementAPI.Helpers
             var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("le.huyhaianh.df@gmail.com", "hvqtyulwvgenqrhb"),
+                Credentials = new NetworkCredential("deas13579@gmail.com", "Xyz12345!"),
                 //Credentials = new NetworkCredential("lyric55@ethereal.email", "gZqJRrnSDqAHHXaUH7"),
                 EnableSsl = true
             };
@@ -22,7 +22,7 @@ namespace CVManagementAPI.Helpers
             string mail = emailTemplate.Replace(@"{body_email}", content.Content);
             var mailMessage = new MailMessage
             {
-                From = new MailAddress("le.huyhaianh.df@gmail.com"),
+                From = new MailAddress("deas13579@gmail.com"),
                 Subject = content.Subject,
                 Body = mail,
                 IsBodyHtml = true
